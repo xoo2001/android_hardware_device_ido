@@ -20,6 +20,14 @@ ro.hardware.fingerprint=msm8916
 # Fusion mag field filter
 ro.fusion.magfield.max=250
 
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_timeout_ms=100
+ro.lmk.log_stats=true
+
 # Netmgrd
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
