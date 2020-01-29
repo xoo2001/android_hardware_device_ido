@@ -107,3 +107,6 @@ TARGET_LD_SHIM_LIBS += \
 
 # inherit from the proprietary version
 include vendor/xiaomi/ido/BoardConfigVendor.mk
+
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
