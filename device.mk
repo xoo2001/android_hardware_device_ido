@@ -240,3 +240,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+
+# Xiaomi Ringtone
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/MI.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MI.ogg \
+    $(LOCAL_PATH)/media/MiClassic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiClassic.ogg \
+    $(LOCAL_PATH)/media/MiMix.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiMix.ogg
