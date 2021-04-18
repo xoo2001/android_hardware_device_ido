@@ -56,6 +56,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service \
 
+# Charging images
+PRODUCT_PACKAGES += \
+    charger_res_images
 
 # Consumerir
 PRODUCT_COPY_FILES += \
