@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+SAKURA_MAINTAINER := xvae27
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
