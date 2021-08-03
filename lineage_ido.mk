@@ -18,6 +18,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 SAKURA_MAINTAINER := xvae27
+ro.cipher.maintainer=xvae27
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Shipping API level
