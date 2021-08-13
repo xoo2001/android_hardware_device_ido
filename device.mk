@@ -106,7 +106,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.target.rc \
-    init.qcom.post_boot.sh
+    init.qcom.post_boot.sh \
+    init.performance_level.rc
 
 # Keylayout
 PRODUCT_COPY_FILES += \
