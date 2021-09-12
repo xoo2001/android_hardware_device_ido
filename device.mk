@@ -169,12 +169,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.touch@1.0-service
 
 # Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.ido
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.touch@1.0-service.ido
 
 # USB ID
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
