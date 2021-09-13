@@ -72,6 +72,11 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.ido \
     fingerprint.msm8916
 
+# Filesystem tools
+PRODUCT_PACKAGES += \
+    e2fsck_static \
+    resize2fs_static
+
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
