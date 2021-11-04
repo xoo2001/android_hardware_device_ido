@@ -60,3 +60,6 @@ persist.data.qmi.adb_logmask=0
 
 # System
 persist.sys.binary_xml=false
+
+# Storage
+persist.sys.fflag.override.settings_fuse=false
