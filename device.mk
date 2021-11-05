@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
 # Shim
 PRODUCT_PACKAGES += \
     libshim_atomic \
-    libshim_audioclient
+    libaudioclient_shim
 
 # Thermal
 PRODUCT_COPY_FILES += \
