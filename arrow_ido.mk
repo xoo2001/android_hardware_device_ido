@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common)
+$(call inherit-product, vendor/arrow/config/common.mk)
 DEVICE_MAINTAINER := xoo2001
 TARGET_BOOT_ANIMATION_RES := 720
 
