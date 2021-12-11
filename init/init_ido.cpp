@@ -83,6 +83,8 @@ static void set_ramconfig() {
 
         // Override config prop
         property_override(string("ro.config.low_ram"), string("false"));
+        property_override(string("ro.com.google.ime.kb_pad_port_b"), string("1"));
+        property_override(string("ro.com.google.ime.corner_key_r"), string("35"));
 }
 
 
