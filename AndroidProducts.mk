@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_ido.mk
-    
+    $(LOCAL_DIR)/aosp_ido.mk
+
 COMMON_LUNCH_CHOICES := \
-    nad_ido-eng \
-    nad_ido-userdebug \
-    nad_ido-user
+    aosp_ido-eng \
+    aosp_ido-userdebug \
+    aosp_ido-user

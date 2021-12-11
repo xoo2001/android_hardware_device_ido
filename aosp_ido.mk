@@ -16,9 +16,10 @@
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common NusantaraProject stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 USE_PIXEL_CHARGING := true
 TARGET_BOOT_ANIMATION_RES := 720
+BLASTER_BUILD_VARIANT := VANILLA
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
@@ -29,7 +30,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8939
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ido
 
-PRODUCT_NAME := nad_ido
+PRODUCT_NAME := aosp_ido
 BOARD_VENDOR := xiaomi
 PRODUCT_DEVICE := ido
 
