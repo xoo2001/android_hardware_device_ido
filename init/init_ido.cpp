@@ -80,6 +80,9 @@ static void set_ramconfig() {
         property_override("dalvik.vm.heapminfree", "2m");
         property_override("dalvik.vm.heapmaxfree", "8m");
     }
+
+        // Override config prop
+        property_override(string("ro.config.low_ram"), string("false"));
 }
 
 
